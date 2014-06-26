@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BCB4C751957829000DDCEA8 /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCB4C741957829000DDCEA8 /* a.png */; };
+		4BCCAF3C1959A5D100B57437 /* keisanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCCAF3B1959A5D100B57437 /* keisanViewController.m */; };
+		4BD232A71956ACA200495371 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD232A61956ACA200495371 /* Foundation.framework */; };
+		4BD232A91956ACA200495371 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD232A81956ACA200495371 /* CoreGraphics.framework */; };
+		4BD232AB1956ACA200495371 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD232AA1956ACA200495371 /* UIKit.framework */; };
+		4BD232B11956ACA200495371 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4BD232AF1956ACA200495371 /* InfoPlist.strings */; };
+		4BD232B31956ACA200495371 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD232B21956ACA200495371 /* main.m */; };
+		4BD232B71956ACA200495371 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD232B61956ACA200495371 /* AppDelegate.m */; };
+		4BD232BA1956ACA200495371 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD232B81956ACA200495371 /* Main.storyboard */; };
+		4BD232BD1956ACA200495371 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD232BC1956ACA200495371 /* ViewController.m */; };
+		4BD232BF1956ACA200495371 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BD232BE1956ACA200495371 /* Images.xcassets */; };
+		4BD232C61956ACA300495371 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD232C51956ACA300495371 /* XCTest.framework */; };
+		4BD232C71956ACA300495371 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD232A61956ACA200495371 /* Foundation.framework */; };
+		4BD232C81956ACA300495371 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD232AA1956ACA200495371 /* UIKit.framework */; };
+		4BD232D01956ACA300495371 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4BD232CE1956ACA300495371 /* InfoPlist.strings */; };
+		4BD232D21956ACA300495371 /* _____________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD232D11956ACA300495371 /* _____________Tests.m */; };
+		4BD232F41956AE9E00495371 /* Warp1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BD232DB1956AE9E00495371 /* Warp1.mp3 */; };
+		4BD232F51956AE9E00495371 /* jump01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BD232DC1956AE9E00495371 /* jump01.mp3 */; };
+		4BD232F61956AE9E00495371 /* small_drum1  数字の音楽.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BD232DD1956AE9E00495371 /* small_drum1  数字の音楽.mp3 */; };
+		4BD232F71956AE9E00495371 /* hitomozi.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BD232DE1956AE9E00495371 /* hitomozi.png */; };
+		4BD232F81956AE9E00495371 /* attack01clear,一文字消去の音楽.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BD232DF1956AE9E00495371 /* attack01clear,一文字消去の音楽.mp3 */; };
+		4BD232F91956AE9E00495371 /* calculate_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BD232E01956AE9E00495371 /* calculate_button.png */; };
+		4BD232FA1956AE9E00495371 /* fghfhgfhfhgf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BD232E11956AE9E00495371 /* fghfhgfhfhgf.jpg */; };
+		4BD232FB1956AE9E00495371 /* gdふyfyj.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BD232E21956AE9E00495371 /* gdふyfyj.png */; };
+		4BD232FC1956AE9E00495371 /* Letter-C-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BD232E31956AE9E00495371 /* Letter-C-icon.png */; };
+		4BD232FD1956AE9E00495371 /* Math equal.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BD232E41956AE9E00495371 /* Math equal.png */; };
+		4BD232FE1956AE9E00495371 /* math minus.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BD232E51956AE9E00495371 /* math minus.png */; };
+		4BD232FF1956AE9E00495371 /* math plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BD232E61956AE9E00495371 /* math plus.png */; };
+		4BD233001956AE9E00495371 /* Math-divide-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BD232E71956AE9E00495371 /* Math-divide-icon.png */; };
+		4BD233011956AE9E00495371 /* Math-multiply-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BD232E81956AE9E00495371 /* Math-multiply-icon.png */; };
+		4BD233021956AE9E00495371 /* number 0-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BD232E91956AE9E00495371 /* number 0-1.png */; };
+		4BD233031956AE9E00495371 /* number 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BD232EA1956AE9E00495371 /* number 0.png */; };
+		4BD233041956AE9E00495371 /* Number 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BD232EB1956AE9E00495371 /* Number 1.png */; };
+		4BD233051956AE9E00495371 /* Number 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BD232EC1956AE9E00495371 /* Number 2.png */; };
+		4BD233061956AE9E00495371 /* Number 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BD232ED1956AE9E00495371 /* Number 3.png */; };
+		4BD233071956AE9E00495371 /* Number 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BD232EE1956AE9E00495371 /* Number 4.png */; };
+		4BD233081956AE9E00495371 /* Number 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BD232EF1956AE9E00495371 /* Number 5.png */; };
+		4BD233091956AE9E00495371 /* Number 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BD232F01956AE9E00495371 /* Number 6.png */; };
+		4BD2330A1956AE9E00495371 /* Number 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BD232F11956AE9E00495371 /* Number 7.png */; };
+		4BD2330B1956AE9E00495371 /* Number 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BD232F21956AE9E00495371 /* Number 8.png */; };
+		4BD2330C1956AE9E00495371 /* Number 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BD232F31956AE9E00495371 /* Number 9.png */; };
+		4BD233121956E99600495371 /* saikouViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD233111956E99600495371 /* saikouViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BD232C91956ACA300495371 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BD2329B1956ACA200495371 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BD232A21956ACA200495371;
+			remoteInfo = "分数計算あまりの分かる計算";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BCB4C741957829000DDCEA8 /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a.png; sourceTree = "<group>"; };
+		4BCCAF3A1959A5D100B57437 /* keisanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keisanViewController.h; sourceTree = "<group>"; };
+		4BCCAF3B1959A5D100B57437 /* keisanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = keisanViewController.m; sourceTree = "<group>"; };
+		4BD232A31956ACA200495371 /* 分数計算あまりの分かる計算.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "分数計算あまりの分かる計算.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BD232A61956ACA200495371 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4BD232A81956ACA200495371 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4BD232AA1956ACA200495371 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4BD232AE1956ACA200495371 /* 分数計算あまりの分かる計算-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "分数計算あまりの分かる計算-Info.plist"; sourceTree = "<group>"; };
+		4BD232B01956ACA200495371 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4BD232B21956ACA200495371 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4BD232B41956ACA200495371 /* 分数計算あまりの分かる計算-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "分数計算あまりの分かる計算-Prefix.pch"; sourceTree = "<group>"; };
+		4BD232B51956ACA200495371 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4BD232B61956ACA200495371 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4BD232B91956ACA200495371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BD232BB1956ACA200495371 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4BD232BC1956ACA200495371 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4BD232BE1956ACA200495371 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4BD232C41956ACA300495371 /* 分数計算あまりの分かる計算Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "分数計算あまりの分かる計算Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BD232C51956ACA300495371 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4BD232CD1956ACA300495371 /* 分数計算あまりの分かる計算Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "分数計算あまりの分かる計算Tests-Info.plist"; sourceTree = "<group>"; };
+		4BD232CF1956ACA300495371 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4BD232D11956ACA300495371 /* _____________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____________Tests.m"; sourceTree = "<group>"; };
+		4BD232DB1956AE9E00495371 /* Warp1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Warp1.mp3; sourceTree = "<group>"; };
+		4BD232DC1956AE9E00495371 /* jump01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jump01.mp3; sourceTree = "<group>"; };
+		4BD232DD1956AE9E00495371 /* small_drum1  数字の音楽.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "small_drum1  数字の音楽.mp3"; sourceTree = "<group>"; };
+		4BD232DE1956AE9E00495371 /* hitomozi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hitomozi.png; sourceTree = "<group>"; };
+		4BD232DF1956AE9E00495371 /* attack01clear,一文字消去の音楽.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "attack01clear,一文字消去の音楽.mp3"; sourceTree = "<group>"; };
+		4BD232E01956AE9E00495371 /* calculate_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calculate_button.png; sourceTree = "<group>"; };
+		4BD232E11956AE9E00495371 /* fghfhgfhfhgf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fghfhgfhfhgf.jpg; sourceTree = "<group>"; };
+		4BD232E21956AE9E00495371 /* gdふyfyj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gdふyfyj.png"; sourceTree = "<group>"; };
+		4BD232E31956AE9E00495371 /* Letter-C-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Letter-C-icon.png"; sourceTree = "<group>"; };
+		4BD232E41956AE9E00495371 /* Math equal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Math equal.png"; sourceTree = "<group>"; };
+		4BD232E51956AE9E00495371 /* math minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "math minus.png"; sourceTree = "<group>"; };
+		4BD232E61956AE9E00495371 /* math plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "math plus.png"; sourceTree = "<group>"; };
+		4BD232E71956AE9E00495371 /* Math-divide-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Math-divide-icon.png"; sourceTree = "<group>"; };
+		4BD232E81956AE9E00495371 /* Math-multiply-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Math-multiply-icon.png"; sourceTree = "<group>"; };
+		4BD232E91956AE9E00495371 /* number 0-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "number 0-1.png"; sourceTree = "<group>"; };
+		4BD232EA1956AE9E00495371 /* number 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "number 0.png"; sourceTree = "<group>"; };
+		4BD232EB1956AE9E00495371 /* Number 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Number 1.png"; sourceTree = "<group>"; };
+		4BD232EC1956AE9E00495371 /* Number 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Number 2.png"; sourceTree = "<group>"; };
+		4BD232ED1956AE9E00495371 /* Number 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Number 3.png"; sourceTree = "<group>"; };
+		4BD232EE1956AE9E00495371 /* Number 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Number 4.png"; sourceTree = "<group>"; };
+		4BD232EF1956AE9E00495371 /* Number 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Number 5.png"; sourceTree = "<group>"; };
+		4BD232F01956AE9E00495371 /* Number 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Number 6.png"; sourceTree = "<group>"; };
+		4BD232F11956AE9E00495371 /* Number 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Number 7.png"; sourceTree = "<group>"; };
+		4BD232F21956AE9E00495371 /* Number 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Number 8.png"; sourceTree = "<group>"; };
+		4BD232F31956AE9E00495371 /* Number 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Number 9.png"; sourceTree = "<group>"; };
+		4BD233101956E99600495371 /* saikouViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = saikouViewController.h; sourceTree = "<group>"; };
+		4BD233111956E99600495371 /* saikouViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = saikouViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BD232A01956ACA200495371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD232A91956ACA200495371 /* CoreGraphics.framework in Frameworks */,
+				4BD232AB1956ACA200495371 /* UIKit.framework in Frameworks */,
+				4BD232A71956ACA200495371 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BD232C11956ACA300495371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD232C61956ACA300495371 /* XCTest.framework in Frameworks */,
+				4BD232C81956ACA300495371 /* UIKit.framework in Frameworks */,
+				4BD232C71956ACA300495371 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BD2329A1956ACA200495371 = {
+			isa = PBXGroup;
+			children = (
+				4BD232AC1956ACA200495371 /* 分数計算あまりの分かる計算 */,
+				4BD232CB1956ACA300495371 /* 分数計算あまりの分かる計算Tests */,
+				4BD232A51956ACA200495371 /* Frameworks */,
+				4BD232A41956ACA200495371 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BD232A41956ACA200495371 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BD232A31956ACA200495371 /* 分数計算あまりの分かる計算.app */,
+				4BD232C41956ACA300495371 /* 分数計算あまりの分かる計算Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BD232A51956ACA200495371 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BD232A61956ACA200495371 /* Foundation.framework */,
+				4BD232A81956ACA200495371 /* CoreGraphics.framework */,
+				4BD232AA1956ACA200495371 /* UIKit.framework */,
+				4BD232C51956ACA300495371 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BD232AC1956ACA200495371 /* 分数計算あまりの分かる計算 */ = {
+			isa = PBXGroup;
+			children = (
+				4BD232B51956ACA200495371 /* AppDelegate.h */,
+				4BD232B61956ACA200495371 /* AppDelegate.m */,
+				4BD232B81956ACA200495371 /* Main.storyboard */,
+				4BD232BB1956ACA200495371 /* ViewController.h */,
+				4BD232BC1956ACA200495371 /* ViewController.m */,
+				4BD233101956E99600495371 /* saikouViewController.h */,
+				4BD233111956E99600495371 /* saikouViewController.m */,
+				4BCCAF3A1959A5D100B57437 /* keisanViewController.h */,
+				4BCCAF3B1959A5D100B57437 /* keisanViewController.m */,
+				4BD232BE1956ACA200495371 /* Images.xcassets */,
+				4BD232AD1956ACA200495371 /* Supporting Files */,
+			);
+			path = "分数計算あまりの分かる計算";
+			sourceTree = "<group>";
+		};
+		4BD232AD1956ACA200495371 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BCB4C741957829000DDCEA8 /* a.png */,
+				4BD232DB1956AE9E00495371 /* Warp1.mp3 */,
+				4BD232DC1956AE9E00495371 /* jump01.mp3 */,
+				4BD232DD1956AE9E00495371 /* small_drum1  数字の音楽.mp3 */,
+				4BD232DE1956AE9E00495371 /* hitomozi.png */,
+				4BD232DF1956AE9E00495371 /* attack01clear,一文字消去の音楽.mp3 */,
+				4BD232E01956AE9E00495371 /* calculate_button.png */,
+				4BD232E11956AE9E00495371 /* fghfhgfhfhgf.jpg */,
+				4BD232E21956AE9E00495371 /* gdふyfyj.png */,
+				4BD232E31956AE9E00495371 /* Letter-C-icon.png */,
+				4BD232E41956AE9E00495371 /* Math equal.png */,
+				4BD232E51956AE9E00495371 /* math minus.png */,
+				4BD232E61956AE9E00495371 /* math plus.png */,
+				4BD232E71956AE9E00495371 /* Math-divide-icon.png */,
+				4BD232E81956AE9E00495371 /* Math-multiply-icon.png */,
+				4BD232E91956AE9E00495371 /* number 0-1.png */,
+				4BD232EA1956AE9E00495371 /* number 0.png */,
+				4BD232EB1956AE9E00495371 /* Number 1.png */,
+				4BD232EC1956AE9E00495371 /* Number 2.png */,
+				4BD232ED1956AE9E00495371 /* Number 3.png */,
+				4BD232EE1956AE9E00495371 /* Number 4.png */,
+				4BD232EF1956AE9E00495371 /* Number 5.png */,
+				4BD232F01956AE9E00495371 /* Number 6.png */,
+				4BD232F11956AE9E00495371 /* Number 7.png */,
+				4BD232F21956AE9E00495371 /* Number 8.png */,
+				4BD232F31956AE9E00495371 /* Number 9.png */,
+				4BD232AE1956ACA200495371 /* 分数計算あまりの分かる計算-Info.plist */,
+				4BD232AF1956ACA200495371 /* InfoPlist.strings */,
+				4BD232B21956ACA200495371 /* main.m */,
+				4BD232B41956ACA200495371 /* 分数計算あまりの分かる計算-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4BD232CB1956ACA300495371 /* 分数計算あまりの分かる計算Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4BD232D11956ACA300495371 /* _____________Tests.m */,
+				4BD232CC1956ACA300495371 /* Supporting Files */,
+			);
+			path = "分数計算あまりの分かる計算Tests";
+			sourceTree = "<group>";
+		};
+		4BD232CC1956ACA300495371 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BD232CD1956ACA300495371 /* 分数計算あまりの分かる計算Tests-Info.plist */,
+				4BD232CE1956ACA300495371 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BD232A21956ACA200495371 /* 分数計算あまりの分かる計算 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BD232D51956ACA300495371 /* Build configuration list for PBXNativeTarget "分数計算あまりの分かる計算" */;
+			buildPhases = (
+				4BD2329F1956ACA200495371 /* Sources */,
+				4BD232A01956ACA200495371 /* Frameworks */,
+				4BD232A11956ACA200495371 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "分数計算あまりの分かる計算";
+			productName = "分数計算あまりの分かる計算";
+			productReference = 4BD232A31956ACA200495371 /* 分数計算あまりの分かる計算.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BD232C31956ACA300495371 /* 分数計算あまりの分かる計算Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BD232D81956ACA300495371 /* Build configuration list for PBXNativeTarget "分数計算あまりの分かる計算Tests" */;
+			buildPhases = (
+				4BD232C01956ACA300495371 /* Sources */,
+				4BD232C11956ACA300495371 /* Frameworks */,
+				4BD232C21956ACA300495371 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BD232CA1956ACA300495371 /* PBXTargetDependency */,
+			);
+			name = "分数計算あまりの分かる計算Tests";
+			productName = "分数計算あまりの分かる計算Tests";
+			productReference = 4BD232C41956ACA300495371 /* 分数計算あまりの分かる計算Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BD2329B1956ACA200495371 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = mycompany;
+				TargetAttributes = {
+					4BD232C31956ACA300495371 = {
+						TestTargetID = 4BD232A21956ACA200495371;
+					};
+				};
+			};
+			buildConfigurationList = 4BD2329E1956ACA200495371 /* Build configuration list for PBXProject "分数計算あまりの分かる計算" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BD2329A1956ACA200495371;
+			productRefGroup = 4BD232A41956ACA200495371 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BD232A21956ACA200495371 /* 分数計算あまりの分かる計算 */,
+				4BD232C31956ACA300495371 /* 分数計算あまりの分かる計算Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BD232A11956ACA200495371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD232F61956AE9E00495371 /* small_drum1  数字の音楽.mp3 in Resources */,
+				4BD232BF1956ACA200495371 /* Images.xcassets in Resources */,
+				4BD232FC1956AE9E00495371 /* Letter-C-icon.png in Resources */,
+				4BD2330B1956AE9E00495371 /* Number 8.png in Resources */,
+				4BD232F91956AE9E00495371 /* calculate_button.png in Resources */,
+				4BD232FB1956AE9E00495371 /* gdふyfyj.png in Resources */,
+				4BD233011956AE9E00495371 /* Math-multiply-icon.png in Resources */,
+				4BD233051956AE9E00495371 /* Number 2.png in Resources */,
+				4BD233021956AE9E00495371 /* number 0-1.png in Resources */,
+				4BD232F71956AE9E00495371 /* hitomozi.png in Resources */,
+				4BD232FF1956AE9E00495371 /* math plus.png in Resources */,
+				4BD233071956AE9E00495371 /* Number 4.png in Resources */,
+				4BD233041956AE9E00495371 /* Number 1.png in Resources */,
+				4BD2330C1956AE9E00495371 /* Number 9.png in Resources */,
+				4BD232FA1956AE9E00495371 /* fghfhgfhfhgf.jpg in Resources */,
+				4BD232F81956AE9E00495371 /* attack01clear,一文字消去の音楽.mp3 in Resources */,
+				4BD233001956AE9E00495371 /* Math-divide-icon.png in Resources */,
+				4BD232B11956ACA200495371 /* InfoPlist.strings in Resources */,
+				4BD233031956AE9E00495371 /* number 0.png in Resources */,
+				4BCB4C751957829000DDCEA8 /* a.png in Resources */,
+				4BD2330A1956AE9E00495371 /* Number 7.png in Resources */,
+				4BD232FD1956AE9E00495371 /* Math equal.png in Resources */,
+				4BD232F41956AE9E00495371 /* Warp1.mp3 in Resources */,
+				4BD232BA1956ACA200495371 /* Main.storyboard in Resources */,
+				4BD232F51956AE9E00495371 /* jump01.mp3 in Resources */,
+				4BD233081956AE9E00495371 /* Number 5.png in Resources */,
+				4BD232FE1956AE9E00495371 /* math minus.png in Resources */,
+				4BD233061956AE9E00495371 /* Number 3.png in Resources */,
+				4BD233091956AE9E00495371 /* Number 6.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BD232C21956ACA300495371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD232D01956ACA300495371 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BD2329F1956ACA200495371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCCAF3C1959A5D100B57437 /* keisanViewController.m in Sources */,
+				4BD233121956E99600495371 /* saikouViewController.m in Sources */,
+				4BD232BD1956ACA200495371 /* ViewController.m in Sources */,
+				4BD232B71956ACA200495371 /* AppDelegate.m in Sources */,
+				4BD232B31956ACA200495371 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BD232C01956ACA300495371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD232D21956ACA300495371 /* _____________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BD232CA1956ACA300495371 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BD232A21956ACA200495371 /* 分数計算あまりの分かる計算 */;
+			targetProxy = 4BD232C91956ACA300495371 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BD232AF1956ACA200495371 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BD232B01956ACA200495371 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4BD232B81956ACA200495371 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BD232B91956ACA200495371 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BD232CE1956ACA300495371 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BD232CF1956ACA300495371 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BD232D31956ACA300495371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4BD232D41956ACA300495371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BD232D61956ACA300495371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "分数計算あまりの分かる計算/分数計算あまりの分かる計算-Prefix.pch";
+				INFOPLIST_FILE = "分数計算あまりの分かる計算/分数計算あまりの分かる計算-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4BD232D71956ACA300495371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "分数計算あまりの分かる計算/分数計算あまりの分かる計算-Prefix.pch";
+				INFOPLIST_FILE = "分数計算あまりの分かる計算/分数計算あまりの分かる計算-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4BD232D91956ACA300495371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/分数計算あまりの分かる計算.app/分数計算あまりの分かる計算";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "分数計算あまりの分かる計算/分数計算あまりの分かる計算-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "分数計算あまりの分かる計算Tests/分数計算あまりの分かる計算Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4BD232DA1956ACA300495371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/分数計算あまりの分かる計算.app/分数計算あまりの分かる計算";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "分数計算あまりの分かる計算/分数計算あまりの分かる計算-Prefix.pch";
+				INFOPLIST_FILE = "分数計算あまりの分かる計算Tests/分数計算あまりの分かる計算Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BD2329E1956ACA200495371 /* Build configuration list for PBXProject "分数計算あまりの分かる計算" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BD232D31956ACA300495371 /* Debug */,
+				4BD232D41956ACA300495371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BD232D51956ACA300495371 /* Build configuration list for PBXNativeTarget "分数計算あまりの分かる計算" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BD232D61956ACA300495371 /* Debug */,
+				4BD232D71956ACA300495371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BD232D81956ACA300495371 /* Build configuration list for PBXNativeTarget "分数計算あまりの分かる計算Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BD232D91956ACA300495371 /* Debug */,
+				4BD232DA1956ACA300495371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BD2329B1956ACA200495371 /* Project object */;
+}
