@@ -32,6 +32,7 @@
     IBOutlet UILabel *kabunsusita;
     IBOutlet UILabel *kabunsuue;
     
+    
     //左右の数値を入れる変数
     int leftNumber;
     int rightNumber;

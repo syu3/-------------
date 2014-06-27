@@ -122,8 +122,8 @@
         kabunsuoo.text = @"1";
     }
   //ここに、textfiledがすべて埋まっていないときに警告
-    if () {
-        <#statements#>
+    if (kotae0=kotae0) {
+        
     }
 }
 - (int)calculateGCD{
