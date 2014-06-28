@@ -90,7 +90,7 @@
     //最小公倍数(LCM)の計算
     int lcm = [self calculateLCM];
     resultLabel1.text = [NSString stringWithFormat:@"%d", lcm];
-  
+    kabunsusita.text = [NSString stringWithFormat:@"%d", lcm];
     leftNumber1=leftNumber1+rightNumber1;
     resultLabel.text = [NSString stringWithFormat:@"%d",leftNumber1];
  
@@ -122,7 +122,7 @@
         kabunsuoo.text = @"1";
     }
   //ここに、textfiledがすべて埋まっていないときに警告
-    if (kotae0=kotae0) {
+    if (leftTextField0.text&&leftTextField1.text&&rightTextField0.text&&[rightTextField1.text isEqualToString:@""]) {
         
     }
 }
